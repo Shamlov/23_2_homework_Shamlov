@@ -1,1 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+a:hover,
+i:hover {
+  color: white !important;
+}
+
+.my-text-link a {
+  color: rgb(190, 229, 235);
+}
+
+.my-icon-link i {
+  color: rgb(190, 229, 235);
+}
+
+.my-navbar {
+  background-color: rgb(23, 162, 184) !important;
+}
+
+.date-block i,
+.date-block span {
+  color: rgb(23, 162, 184);
+}/*# sourceMappingURL=style.css.map */

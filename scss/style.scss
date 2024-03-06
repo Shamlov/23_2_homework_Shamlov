@@ -1,0 +1,33 @@
+$color-main: rgb(23, 162, 184);
+$color-main-light: rgb(190, 229, 235);
+$color-text: rgb(0, 0, 0);
+// $color-icon: rgb(138, 136, 14);
+
+a:hover,
+i:hover {
+  color: white !important; ///////////////
+}
+
+.my-text-link {
+  a {
+    color: $color-main-light;
+  }
+}
+
+.my-icon-link {
+  i {
+    color: $color-main-light;
+  }
+}
+
+// пока делаю так смену цвета
+.my-navbar {
+  background-color: $color-main !important;/////////
+}
+
+.date-block {
+  i,
+  span {
+    color: $color-main;
+  }
+}
