@@ -1,11 +1,12 @@
 $color-main: rgb(23, 162, 184);
 $color-main-light: rgb(190, 229, 235);
 $color-text: rgb(0, 0, 0);
-// $color-icon: rgb(138, 136, 14);
 
-a:hover,
-i:hover {
-  color: white !important; ///////////////
+header {
+  a:hover,
+  i:hover {
+    color: white !important; ///////////////
+  }
 }
 
 .my-text-link {
@@ -22,7 +23,7 @@ i:hover {
 
 // пока делаю так смену цвета
 .my-navbar {
-  background-color: $color-main !important;/////////
+  background-color: $color-main !important; /////////
 }
 
 .date-block {
@@ -30,4 +31,36 @@ i:hover {
   span {
     color: $color-main;
   }
+}
+
+thead {
+  th {
+    background-color: $color-main-light !important;
+  }
+}
+
+td {
+  position: relative;
+  line-height: 1;
+}
+
+thead {
+  th {
+    border-top: 1px solid $color-main;
+    &:not(:last-child) {
+      border-right: 1px solid $color-main;
+    }
+  }
+}
+
+tbody {
+  th {
+    border-right: 1px solid rgb(156, 156, 156);
+  }
+  td:not(:last-child) {
+    border-right: 1px solid rgb(156, 156, 156);
+  }
+}
+.my-background-badge {
+  background-color: $color-main;
 }

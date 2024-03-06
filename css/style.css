@@ -1,5 +1,5 @@
-a:hover,
-i:hover {
+header a:hover,
+header i:hover {
   color: white !important;
 }
 
@@ -18,4 +18,31 @@ i:hover {
 .date-block i,
 .date-block span {
   color: rgb(23, 162, 184);
+}
+
+thead th {
+  background-color: rgb(190, 229, 235) !important;
+}
+
+td {
+  position: relative;
+  line-height: 1;
+}
+
+thead th {
+  border-top: 1px solid rgb(23, 162, 184);
+}
+thead th:not(:last-child) {
+  border-right: 1px solid rgb(23, 162, 184);
+}
+
+tbody th {
+  border-right: 1px solid rgb(156, 156, 156);
+}
+tbody td:not(:last-child) {
+  border-right: 1px solid rgb(156, 156, 156);
+}
+
+.my-background-badge {
+  background-color: rgb(23, 162, 184);
 }/*# sourceMappingURL=style.css.map */
